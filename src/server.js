@@ -2,4 +2,4 @@ const App = require('./app');
 
 
 console.log('🚀 Back-end started!')
-App.listen(3333) ;
+App.listen(process.env.PORT  || 3333) ;
